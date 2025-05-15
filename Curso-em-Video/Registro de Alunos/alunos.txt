@@ -1,0 +1,5 @@
+Afonso: 10.0
+Bruno: 9.0
+Creuza : 7.0
+Didi: 8.0
+Estevão: 17.0
