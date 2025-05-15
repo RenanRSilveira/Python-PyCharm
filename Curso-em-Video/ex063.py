@@ -1,0 +1,11 @@
+n = int(input('Quantos termos você quer mostrar? '))
+t1 = 0
+t2 = 1
+cont = 3
+print(f'\033[4;33m{t1}\033[m → \033[4;33m{t2}\033[m ', end='')
+while cont <= n:
+    t3 = t1 + t2
+    print(f'→ \033[4;33m{t3}\033[m ', end='')
+    t1 = t2
+    t2 = t3
+    cont += 1
